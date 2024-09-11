@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My table part10</title> 
+    <style>
+        h2{
+            text-transform: uppercase;
+            text-align: center;
+            color:red;
+        }
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        td,th{
+            border: 2px solid black;
+            text-align: center;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h2>table with rowspan and colspan</h2>
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Class</th>
+            <th>School</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Akintude</td>
+            <td rowspan="2">quadri</td>
+            <td>11</td>
+            <td rowspan="2">MMV School</td>
+        </tr>
+
+        <tr>
+           
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">lawal</td>
+            <td rowspan="2">demilade</td>
+            <td>23</td>
+            <td rowspan="2">LMS School</td>
+        </tr>
+
+        <tr>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <td>B</td>
+            <!-- <td></td> -->
+        </tr>
+
+        <tr>
+            <td rowspan="2">olamide</td>
+            <td rowspan="2">olayinka</td>
+            <td>50</td>
+            <td rowspan="2">SCPTM School</td>
+        </tr>
+
+        <tr>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <td>C</td>
+            <!-- <td></td> -->
+        </tr>
+    </table>
+    
+</body>
+</html>

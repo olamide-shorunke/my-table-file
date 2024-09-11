@@ -1,0 +1,29 @@
+.product{
+    border: 1px solid black;
+    margin: 50px auto;
+    width: 550px;
+}
+body{
+    height: 200vh;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
